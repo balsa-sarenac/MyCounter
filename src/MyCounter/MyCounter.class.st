@@ -21,6 +21,12 @@ MyCounter >> count: aNumber [
 ]
 
 { #category : 'accessing' }
+MyCounter >> decrement [
+
+	count := count - 1
+]
+
+{ #category : 'accessing' }
 MyCounter >> increment [
 
 	count := count + 1
