@@ -19,3 +19,9 @@ MyCounter >> count: aNumber [
 
 	count := aNumber
 ]
+
+{ #category : 'accessing' }
+MyCounter >> increment [
+
+	count := count + 1
+]
